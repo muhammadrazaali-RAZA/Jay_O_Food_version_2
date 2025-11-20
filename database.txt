@@ -1,0 +1,57 @@
+create database jayo;
+use jayo;
+
+create table table_book(
+Name varchar (50),
+email varchar (50),
+res_date DATETIME,
+people int,
+request varchar (500)
+);
+
+create table contact_web(
+Name varchar (50),
+email varchar (50),
+Subject varchar (200),
+request varchar (1200)
+);
+
+create table cater_book(
+Name varchar (50),
+phone varchar (20),
+email varchar (50),
+res_date DATETIME,
+people int,
+menu varchar (25),
+request varchar (500)
+);
+
+create table intern_book(
+class_date varchar (12),
+Name varchar (50),
+phone varchar (20),
+dob Date,
+email varchar (50),
+address varchar (100)
+);
+
+create table admin(
+name varchar (50),
+email varchar (50),
+pass varchar (50)
+);
+
+insert into admin values ("Patricia Gimpl","pagimpl@gmail.com","<E.3?Ea+7!bC!3G");
+
+admin _ folder
+admin_home-file
+Server:
+mysqlsvr83.world4you.com
+Database:
+5669563db1
+User:
+sql2907834
+Password:
+5cf4r*eg
+
+www.jayo.at
